@@ -1,0 +1,79 @@
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Ajusta esta distancia según tus necesidades */
+    margin-top: 20px;
+  }
+    .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); height: 800px;/* Fondo semitransparente para mejorar la legibilidad del texto */
+    padding: 15rem;
+    width: 100%;
+  }
+  .carousel-caption h5 {
+    font-size: 1rem; /* Ajusta el tamaño del título */
+  }
+  .carousel-caption p {
+    font-size: 1.2rem; /* Ajusta el tamaño del texto */
+  }
+       .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); height: 800px;/* Fondo semitransparente para mejorar la legibilidad del texto */
+    padding: 15rem;
+  }
+  .carousel-caption h5 {
+    font-size: 2rem; /* Ajusta el tamaño del título */
+  }
+  .carousel-caption p {
+    font-size: 1.2rem; /* Ajusta el tamaño del texto */
+  }
+    .carousel-inner {
+      height: 500px; /* Ajusta esta altura según tus necesidades */
+    }
+
+    .carousel-item img {
+      height: 100%;
+      object-fit: cover; /* Ajusta el contenido de la imagen para que cubra todo el contenedor */
+    }
+    .navbar-custom {
+        justify-content: center; /* Center content within the navbar */
+      }
+
+      .mt-custom {
+      margin-top: 20px; /* Adjust this value as needed */
+    }
+    .text-container {
+        display: flex;
+        align-items: center;
+      }
+      .card-container {
+        margin-left: auto;
+      }
+      .text-container {
+        text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+      }
+      .card-img-top {
+        width: 100%; /* Asegura que la imagen se ajuste al ancho de la tarjeta */
+        height: auto; /* Mantiene la proporción de la imagen */
+      }
+      .card {
+        max-width: 35rem; /* Limita el ancho de la tarjeta */
+      }
+
+
+      .card-img-top {
+        width: 100%;
+        height: auto; /* Ajusta el tamaño de la imagen */
+      }
+      .text-content {
+        display: flex;
+        align-items: center; /* Centra verticalmente el texto en relación con la imagen */
+        height: 100%;
+      }
+      .text-content p {
+        margin-left: 20px; /* Espacio entre la imagen y el texto */
+      }
